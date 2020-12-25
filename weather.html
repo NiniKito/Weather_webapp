@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="container">
+        <h1 class="heading">
+          შეგიძლიათ გაიგოთ ნებისმიერ ქალაქში ამინდის სასურველი პროგნოზი
+        </h1>
+        <form>
+          <input type="text" placeholder="გთხოვთ შეიყვანოთ ქალაქი ლათინური ასოებით" />
+          <button type="submit">ძებნა</button>
+          <span class="error"></span>
+        </form>
+      </div>
+    </div>
+    <div class="cities_part">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </div>
+   <script src="weather.js"></script>
+  </body>
+</html>

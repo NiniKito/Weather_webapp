@@ -1,0 +1,109 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  margin: 0;
+  color: rgb(112, 14, 71);
+  border-radius: 30px;
+}
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: rgb(34, 60, 116);
+  cursor: pointer;
+}
+input {
+  width: 44%;
+}
+.heading {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.main_container form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main_container form input {
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid;
+}
+
+.main_container form button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background: red;
+}
+
+.main_container form button:hover {
+  background: blue;
+}
+
+.main_container form .error {
+  position: absolute;
+  bottom: 60px;
+  color: red;
+}
+
+.cities_part {
+  margin: 70px 0 20px;
+}
+
+.cities_part .cities {
+  display: grid;
+  grid-gap: 32px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cities_part .city {
+  position: relative;
+  padding: 40px 10%;
+  border-radius: 20px;
+  background: white;
+  color: green;
+}
+
+.cities_part figcaption {
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+
+.cities_part .city-temperature {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(143, 135, 29);
+}
+
+.cities_part .city sup {
+  font-size: 0.5em;
+}
+
+.cities_part .city-name sup {
+  padding: 0.2em 0.6em;
+  border-radius: 30px;
+  color: red;
+  background: orange;
+}
+
+.cities_part .city-icon {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
